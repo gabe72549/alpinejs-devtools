@@ -252,7 +252,7 @@ function init() {
                     name: getComponentName(rootEl),
                     depth: componentDepth,
                     index,
-                    id: rootEl.__alpineDevtool.id,
+                    id: rootEl.__alpineDevtool ? rootEl.__alpineDevtool.id : null,
                 })
             })
 
